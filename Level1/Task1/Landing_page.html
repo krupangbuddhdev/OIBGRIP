@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisharium</title>
+    <style>
+        .main{
+            height: 100vh;
+            color: white;
+            background: url(./Goldfish.jpg);
+            background-size: cover;
+            background-position: center center;
+            justify-content: center;
+        }
+        .div1{
+            color: white;
+        }
+        
+        .p1{
+            text-align: center;
+            font-size: 100px;
+        }
+        .p2{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .p3{
+            text-align: center;
+        }
+        #btn1{
+            border-radius: 20px;
+            height: 40px;
+            width: 200px;
+            border-color: green;
+            margin-bottom: 10px;
+            background-color: green;
+        }
+        nav{
+            display: flex;
+            padding-top: 10px;
+        }
+        .a1{
+            flex: 1 1 200px;
+        }
+        .smf{
+            font-size: 20px;
+            color: green;
+        }
+        .link1{
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .link2{
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .link3{
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .in{
+            margin-right: 10px;
+            background-color: transparent;
+            color: white;
+            border-color: white;
+            height: 20px;
+        }
+        .srchbtn{
+            margin-right: 10px;
+            background-color: transparent;
+            color: white;
+            border-color: white;
+            height:30px;
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+        
+    </style>
+    
+</head>
+<body style="margin: 0%;">
+    
+    <div class="main">
+        <nav>
+            <div class="a1">
+                <a href="" class="link1"> Home </a>
+                <a href="" class="link2"> About </a>
+                <a href="" class="link3"> Contact </a>
+            </div>
+                
+            <div class="a2">
+                <input type="text" placeholder="Search" class="in">
+                <button class="srchbtn">Search</button>
+            </div>    
+        </nav>
+        <div class="div1">
+            <p class="p1">This is a fish website</p>
+            <p class="p2">Welcome to the era of Fish</p>
+            <center><button id="btn1" type="submit">Explore the fishes</button></center>
+            <script type="text/javascript">
+                document.getElementById("btn1").onclick = function() {
+                    location.href = "https://stylesatlife.com/articles/types-of-fishes/";
+                };
+            </script>
+            <p class="p3">Enjoy the aquatic ride</p>
+        </div>
+    </div>
+        
+    <div class="div2" style="background: rgb(252, 253, 194); padding-bottom: 50px;">
+        <center>
+            <div class="div3" style="display: grid; justify-content: center; padding-top: 100px;">
+                <div style="grid-column-start: 1; grid-column-end: 2;">
+                    <img src="siamese.jpg" style="height: 170px; width: 230px; border-radius: 7px;">
+                </div>
+                <div style="grid-column-start: 3; grid-column-end: 4; width: 200px; text-align: left; margin-left: 50px; margin-top: -10px;">
+                    <p style="font-size: 20px;">Siamese Fish</p>
+                    <p>The Siamese fighting fish (Betta splendens), commonly known as the betta.</p>
+                </div>
+            </div>
+        </center>
+
+        <center>
+            <div class="div3" style="display: grid; justify-content: center; padding-top: 100px;">
+                
+                <div style="grid-column-start: 1; grid-column-end: 2; width: 200px; text-align: left; margin-top: -10px;">
+                    <p style="font-size: 20px;">Guppy Fish</p>
+                    <p>The guppy (Poecilia reticulata), also known as millionfish and rainbow fish. It is a tropical fish.</p>
+                </div>
+                <div style="grid-column-start: 3; grid-column-end: 4; margin-left: 50px;">
+                    <img src="guppy.jpg" style="height: 170px; width: 230px; border-radius: 7px;">
+                </div>
+            </div>
+        </center>
+
+        <center>
+            <div class="div3" style="display: grid; justify-content: center; padding-top: 100px;">
+                <div style="grid-column-start: 1; grid-column-end: 2;">
+                    <img src="Goldfish.jpg" style="height: 170px; width: 230px; border-radius: 7px;">
+                </div>
+                <div style="grid-column-start: 3; grid-column-end: 4; width: 200px; text-align: left; margin-left: 50px; margin-top: -10px;">
+                    <p style="font-size: 20px;">Goldfish Fish</p>
+                    <p>The goldfish (Carassius auratus) is a freshwater fish in the family Cyprinidae of order Cypriniformes.</p>
+                </div>
+            </div>
+        </center>
+
+        <center>
+            <div class="div3" style="display: flex; justify-content: center; margin-top: 100px;">
+                <div style="width: 300px;">
+                    <img src="oscar.jpg" style="height: 120px; width: 200px; border-radius: 70px;">
+                    <p style="font-size: 20px; margin-top: 20px;">Oscar Fish</p>
+                    <p>The oscar (Astronotus ocellatus) is a species of fish from the cichlid family.</p>
+                </div>
+
+                <div style="width: 300px;">
+                    <img src="carp.webp" style="height: 120px; width: 200px; border-radius: 70px;">
+                    <p style="font-size: 20px; margin-top: 20px;">Carp Fish</p>
+                    <p>Carp are various species of oily freshwater fish from the family Cyprinidae.</p>
+                </div>
+
+                <div style="width: 300px; margin-left: 10px;">
+                    <img src="neon-tetra.jpg" style="height: 120px; width: 200px; border-radius: 70px;">
+                    <p style="font-size: 20px; margin-top: 20px;">Neon Tetra Fish</p>
+                    <p>The neon tetra (Paracheirodon innesi) is a Freshwater fish of the characin family.</p>
+                </div>
+            </div>
+        </center>
+
+        <center style="margin-top: 40px;"><a href="https://a-z-animals.com/animals/fish/" class="smf">See more fishes ></a></center>
+    </div>
+
+    <div>
+        <p style="text-align: center; font-size: 50px;">Types of Fishes around the globe</p>
+        <div style="display: flex; justify-content: center;">
+            <img src="fishdata.jpg" style="height: 300px; width: 800px;">
+            <div style="display: flex; flex-direction: column;">
+                <p><span style="font-size: 50px;">40</span><br><span>Species</span></p>
+                <p><span style="font-size: 50px;">94</span><br><span>Countries</span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
