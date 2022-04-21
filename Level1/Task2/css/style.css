@@ -1,0 +1,208 @@
+nav
+{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.image .img1
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.link a
+{
+    text-decoration: none;
+    color: orange;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.link a:hover
+{
+    background-color: white;
+    color: blue;
+}
+.name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #131E3A;
+    color: yellow;
+}
+.name li
+{
+    list-style-type: none;
+}
+.name h1
+{
+    font-size: 200px;
+}
+.name .p1
+{
+    font-size: 40px;
+    margin-top: -120px;
+    float: right;
+}
+.name .p2
+{
+    font-size: 40px;
+    margin-top: -60px;
+    float: right;
+}
+.about1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.about1 img
+{
+    height: 550px;
+    width: 400px;
+}
+.about2
+{
+    width: 500px;
+    text-align: justify;
+    padding-right: 200px;
+    margin-bottom: 100px;
+}
+.about2 li
+{
+    list-style-type: none;
+}
+.about2 li h1
+{
+    font-size: 100px;
+}
+.about2 li p
+{
+    font-size: 20px;
+}
+.about3
+{
+    margin-left: 80px;
+    display: flex;
+}
+.about4 li
+{
+    list-style-type: none;
+}
+.about4 li h1
+{
+    font-size: 50px;
+}
+.about4 li p
+{
+    font-size: 20px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.experience
+{
+    background-color: #131E3A;
+    color: yellow;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.e1
+{
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.e1 li
+{
+    list-style-type: none;
+    
+}
+.experience h1
+{
+    font-size: 100px;
+    margin-left: 115px;
+}
+.e1 h2
+{
+    font-size: 40px;
+}
+.contact
+{
+    background-color: black;
+    color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.c1
+{
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.c2 h1
+{
+    font-size: 50px;
+    width: 500px;
+}
+.c2 p
+{
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.c3
+{
+    display: flex;
+}
+input
+{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding: 10px 25px;
+    padding-right: 35px;
+    margin-right: 30px;
+}
+textarea
+{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 25px;
+    padding-right: 35px;
+    margin-top: 20px;
+    width: 92%;
+}
+button
+{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 10px 25px;
+    padding-right: 35px;
+    margin-top: 20px;
+    width: 97.5%; 
+}
+footer
+{
+    margin-top: 40px;
+    display: flex;
+}
+footer .fa
+{
+    font-size: 30px;
+    width: 50px;
+    color: orange;
+    text-decoration: none;
+}
+footer p
+{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 385px;
+}
